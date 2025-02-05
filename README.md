@@ -36,6 +36,14 @@ Passo a Passo
 - **Construa as imagens e inicie os containers com o Docker Compose:**
 
         docker-compose up --build
+  
+- **Caso queira saber o status do Load Balancer -> NGINX:**
+
+        docker stats project_load_balancer_nginx_1 
+
+- **Para ver os logs do container Load Balancer -> NGINX:**
+
+        docker logs -f project_load_balancer_nginx_1
 
 - ### Este comando irá:
 
