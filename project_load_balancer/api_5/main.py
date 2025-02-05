@@ -1,4 +1,3 @@
-# api_1/app.py
 from fastapi import FastAPI
 
 app = FastAPI()
