@@ -4,7 +4,7 @@
 
 ## Descrição
 
-Este projeto simula um sistema de balanceamento de carga para múltiplas instâncias de APIs. O NGINX é configurado para distribuir as requisições de forma equilibrada entre os containers do Docker. As APIs são implementadas com FastAPI, um framework de alto desempenho para a construção de APIs.
+#### Este projeto simula um sistema de balanceamento de carga para múltiplas instâncias de APIs. O NGINX é configurado para distribuir as requisições de forma equilibrada entre os containers do Docker. As APIs são implementadas com FastAPI, um framework de alto desempenho para a construção de APIs.
 
 ### A configuração do NGINX inclui dois clusters de APIs:
 
