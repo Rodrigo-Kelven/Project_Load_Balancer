@@ -171,7 +171,9 @@ Passo a Passo
 **Caso precise ajustar o projeto para diferentes cenários ou implementar mais recursos, fique à vontade para modificar os arquivos de configuração e adicionar novas APIs.**
 
 ## **Updates**
-- Adicionar regras de WAF para aumentar niveis de segurança
+- Adicionar regras de WAF para aumentar niveis de segurança.
+- Implementar "pequenos projetos"
+- Serviço de auth/auten 
 
 # Contribuições
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um issue ou enviar um pull request.;)
