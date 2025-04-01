@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  # API 1
+  api_1:
+    build:
+      context: ./api_1  # Diretório da API 1
+    ports:
+      - "8001:8000"
+    networks:
+      - fastapi_network
+
+  # API 2
+  api_2:
+    build:
+      context: ./api_2  # Diretório da API 2
+    ports:
+      - "8002:8000"
+    networks:
+      - fastapi_network
+
+  # API 3
+  api_3:
+    build:
+      context: ./api_3  # Diretório da API 3
+    ports:
+      - "8003:8000"
+    networks:
+      - fastapi_network
+
+  # API 4
+  api_4:
+    build:
+      context: ./api_4  # Diretório da API 4
+    ports:
+      - "8004:8000"
+    networks:
+      - fastapi_network
+
+  # API 5
+  api_5:
+    build:
+      context: ./api_5  # Diretório da API 5
+    ports:
+      - "8005:8000"
+    networks:
+      - fastapi_network
+
+  # API 6
+  api_6:
+    build:
+      context: ./api_6  # Diretório da API 6
+    ports:
+      - "8006:8000"
+    networks:
+      - fastapi_network
+
+  # NGINX
+  nginx:
+    build:
+      context: ./nginx  # Diretório do NGINX
+    ports:
+      - "80:80"
+    depends_on:
+      - api_1
+      - api_2
+      - api_3
+      - api_4
+      - api_5
+      - api_6
+    networks:
+      - fastapi_network
+
+networks:
+  fastapi_network:
+    driver: bridge
