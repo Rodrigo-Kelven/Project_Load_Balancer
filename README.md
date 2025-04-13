@@ -1,4 +1,9 @@
 # Load Balancer com NGINX e FastAPI
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![FastAPI](https://img.shields.io/badge/FastAPI-%23FF4F00.svg?style=for-the-badge&logo=fastapi&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) 
+
 ## Versão 1.0.1
 #### Este é um projeto de balanceamento de carga usando Docker e NGINX para gerenciar múltiplas instâncias de APIs criadas com FastAPI. O NGINX atua como um proxy reverso para distribuir as requisições entre diferentes containers de API, permitindo escalabilidade e maior disponibilidade.
 
